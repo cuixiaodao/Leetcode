@@ -2,13 +2,18 @@ import array.*;
 
 import java.util.Arrays;
 
-public class Tester{
+class Tester{
     public static void main(String[] args){
+        int[][] a = {{0,0,1,0,0,0,0,1,0,0,0,0,0},
+                {0,0,0,0,0,0,0,1,1,1,0,0,0},
+                {0,1,1,0,1,0,0,0,0,0,0,0,0},
+                {0,1,0,0,1,1,0,0,1,0,1,0,0},
+                {0,1,0,0,1,1,0,0,1,1,1,0,0},
+                {0,0,0,0,0,0,0,0,0,0,1,0,0},
+                {0,0,0,0,0,0,0,1,1,1,0,0,0},
+                {0,0,0,0,0,0,0,1,1,0,0,0,0}};
 
-        System.out.println(3/2);
-        int[][] a = {{3,2,7,8,4,2}};
-
-        ReshapetheMatrix testInstance = new ReshapetheMatrix();
-        System.out.println(Arrays.deepToString(testInstance.matrixReshape(a,2,3)));
+        MaxAreaofIsland testInstance = new MaxAreaofIsland();
+        System.out.println(testInstance.maxAreaOfIsland(a));
     }
 }
