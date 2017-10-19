@@ -4,16 +4,10 @@ import java.util.Arrays;
 
 class Tester{
     public static void main(String[] args){
-        int[][] a = {{0,0,1,0,0,0,0,1,0,0,0,0,0},
-                {0,0,0,0,0,0,0,1,1,1,0,0,0},
-                {0,1,1,0,1,0,0,0,0,0,0,0,0},
-                {0,1,0,0,1,1,0,0,1,0,1,0,0},
-                {0,1,0,0,1,1,0,0,1,1,1,0,0},
-                {0,0,0,0,0,0,0,0,0,0,1,0,0},
-                {0,0,0,0,0,0,0,1,1,1,0,0,0},
-                {0,0,0,0,0,0,0,1,1,0,0,0,0}};
+        int[] a = {3, 0, 1, 0, 3, 12};
 
-        MaxAreaofIsland testInstance = new MaxAreaofIsland();
-        System.out.println(testInstance.maxAreaOfIsland(a));
+        MoveZeroes testInstance = new MoveZeroes();
+        testInstance.moveZeroes(a);
+        System.out.println(Arrays.toString(a));
     }
 }
