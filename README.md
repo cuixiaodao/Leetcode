@@ -10,3 +10,5 @@ Java implemented Leetcode solutions https://leetcode.com/problemset/algorithms/
 * [Move Zeroes](src/array/MoveZeroes.java) (Easy)
 * [Degree of an Array](src/array/DegreeOfArray.java) (Easy)
 * [Best Time to Buy and Sell Stock II](src/array/BestTimeBuyStock.java) (Easy)
+* [Two Sum II - Input array is sorted](src/array/TwoSumII.java) (Easy)
+* [Majority Element](src/array/MajorityElement.java) (Easy)
