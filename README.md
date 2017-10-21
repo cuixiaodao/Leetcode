@@ -12,3 +12,6 @@ Java implemented Leetcode solutions https://leetcode.com/problemset/algorithms/
 * [Best Time to Buy and Sell Stock II](src/array/BestTimeBuyStock.java) (Easy)
 * [Two Sum II - Input array is sorted](src/array/TwoSumII.java) (Easy)
 * [Majority Element](src/array/MajorityElement.java) (Easy)
+* [Contains Duplicate](src/array/ContainsDuplicate.java) (Easy)
+* [Image Smoother](src/array/ImageSmoother.java) (Easy)
+
