@@ -14,4 +14,6 @@ Java implemented Leetcode solutions https://leetcode.com/problemset/algorithms/
 * [Majority Element](src/array/MajorityElement.java) (Easy)
 * [Contains Duplicate](src/array/ContainsDuplicate.java) (Easy)
 * [Image Smoother](src/array/ImageSmoother.java) (Easy)
+* [Maximum Product of Three Numbers](src/array/MaximumProductThree.java) (Easy)
+* [Missing Number](src/array/MissingNumber.java) (Easy)
 

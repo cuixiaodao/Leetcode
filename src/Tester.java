@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 class Tester{
     public static void main(String[] args){
-        int[][] a = {{1,1,1},{1,0,1},{1,1,1}};
-        ImageSmoother testInstance = new ImageSmoother();
-        Object ans = testInstance.imageSmoother(a);
+        int[] a = {0, 2,1, 3};
+        MissingNumber testInstance = new MissingNumber();
+        Object ans = testInstance.missingNumber(a);
 
         if(ans instanceof int[][])
             System.out.println(Arrays.deepToString((int[][])ans));
