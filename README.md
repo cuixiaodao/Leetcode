@@ -18,4 +18,5 @@ Java implemented Leetcode solutions https://leetcode.com/problemset/algorithms/
 * [Missing Number](src/array/MissingNumber.java) (Easy)
 * [Longest Continuous Increasing Subsequence](src/array/LongestIncreSubseq.java) (Easy)
 * [Best Time to Buy and Sell Stock](src/array/BestTimeBuyStock.java) (Easy)
-
+* [Maximum Subarray](src/array/MaximumSubarray.java) (Easy)
+* [Search Insert Position](src/array/SearchInsertPosition.java) (Easy)
