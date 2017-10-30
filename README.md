@@ -24,3 +24,4 @@ Basic plan: 16 easy + 8 medium for each category
 19. [Remove Element](src/array/RemoveElement.java) (Easy)
 20. [Find All Duplicates in an Array](src/array/FindDuplicates.java) (Medium)
 21. [Beautiful Arrangement II](src/array/BeautifulArrangementII.java) (Medium)
+22. [Product of Array Except Self](src/array/ProductExceptSelf.java) (Medium)

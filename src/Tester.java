@@ -5,9 +5,9 @@ import java.util.List;
 
 class Tester{
     public static void main(String[] args){
-        int[] a = {1, 3,2,2,3, 4};
-        BeautifulArrangementII testInstance = new BeautifulArrangementII();
-        Object ans = testInstance.constructArray(5,1);
+        int[] a = {1,2,3,4};
+        ProductExceptSelf testInstance = new ProductExceptSelf();
+        Object ans = testInstance.productExceptSelf(a);
         // System.out.println(ans.toString());
        if(ans instanceof int[][])
            System.out.println(Arrays.deepToString((int[][])ans));
