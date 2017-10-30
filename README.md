@@ -1,6 +1,7 @@
 # Leetcode
 Java implemented Leetcode solutions https://leetcode.com/problemset/algorithms/
 
+Basic plan: 16 easy + 8 medium for each category
 ## Array
 1. [Array Partition I](src/array/ArrayPartitionI.java) (Easy)
 2. [Reshape the Matrix](src/array/ReshapetheMatrix.java) (Easy)
@@ -22,3 +23,4 @@ Java implemented Leetcode solutions https://leetcode.com/problemset/algorithms/
 18. [Search Insert Position](src/array/SearchInsertPosition.java) (Easy)
 19. [Remove Element](src/array/RemoveElement.java) (Easy)
 20. [Find All Duplicates in an Array](src/array/FindDuplicates.java) (Medium)
+21. [Beautiful Arrangement II](src/array/BeautifulArrangementII.java) (Medium)
