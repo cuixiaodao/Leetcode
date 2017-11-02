@@ -26,3 +26,4 @@ Basic plan: 16 easy + 8 medium for each category
 21. [Beautiful Arrangement II](src/array/BeautifulArrangementII.java) (Medium)
 22. [Product of Array Except Self](src/array/ProductExceptSelf.java) (Medium)
 23. [Combination Sum III](src/array/CombinationSumIII.java) (Medium)
+24. [Find the Duplicate Number](src/array/FindDuplicate.java) (Medium)
