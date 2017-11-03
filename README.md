@@ -27,3 +27,29 @@ Basic plan: 16 easy + 8 medium for each category
 22. [Product of Array Except Self](src/array/ProductExceptSelf.java) (Medium)
 23. [Combination Sum III](src/array/CombinationSumIII.java) (Medium)
 24. [Find the Duplicate Number](src/array/FindDuplicate.java) (Medium)
+
+## HashTable
+1. [Keyboard Row](src/array/KeyboardRow.java) (Easy)
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+16. 
+17. 
+18. 
+19. 
+20. 
+21. 
+22. 
+23. 
+24. 
