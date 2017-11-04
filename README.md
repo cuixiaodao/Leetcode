@@ -31,7 +31,7 @@ Basic plan: 16 easy + 8 medium for each category
 ## HashTable
 1. [Keyboard Row](src/array/KeyboardRow.java) (Easy)
 2. [Distribute Candies](src/array/DistributeCandies.java) (Easy)
-3. 
+3. [Island Perimeter](src/array/IslandPerimeter.java) (Easy)
 4. 
 5. 
 6. 
