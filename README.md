@@ -29,10 +29,10 @@ Basic plan: 16 easy + 8 medium for each category
 24. [Find the Duplicate Number](src/array/FindDuplicate.java) (Medium)
 
 ## HashTable
-1. [Keyboard Row](src/array/KeyboardRow.java) (Easy)
-2. [Distribute Candies](src/array/DistributeCandies.java) (Easy)
-3. [Island Perimeter](src/array/IslandPerimeter.java) (Easy)
-4. 
+1. [Keyboard Row](src/hashTable/KeyboardRow.java) (Easy)
+2. [Distribute Candies](src/hashTable/DistributeCandies.java) (Easy)
+3. [Island Perimeter](src/hashTable/IslandPerimeter.java) (Easy)
+4. [Single Number](src/hashTable/SingleNumber.java) (Easy)
 5. 
 6. 
 7. 

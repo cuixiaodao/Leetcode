@@ -6,13 +6,13 @@ import java.util.List;
 
 class Tester{
     public static void main(String[] args){
-      int[][] a = {{1}};
+      int[] a = {1,1,2,2,3};
         // int[][] a = {{0,1,0,0},
         //            {1,1,1,0},
         //            {0,1,0,0},                  
         //            {1,1,0,0}};
-        IslandPerimeter testInstance = new IslandPerimeter();
-        Object ans = testInstance.islandPerimeter(a);
+        SingleNumber testInstance = new SingleNumber();
+        Object ans = testInstance.singleNumber(a);
 
         if(ans instanceof int[][])
           System.out.println(Arrays.deepToString((int[][])ans));
