@@ -6,7 +6,7 @@ import java.util.List;
 
 class Tester{
     public static void main(String[] args){
-      int[] a = {1,1,2,2,3};
+      int[] a = {1,3,5,8,7,1,3,5,8};
         // int[][] a = {{0,1,0,0},
         //            {1,1,1,0},
         //            {0,1,0,0},                  
