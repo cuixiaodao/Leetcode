@@ -33,7 +33,7 @@ Basic plan: 16 easy + 8 medium for each category
 2. [Distribute Candies](src/hashTable/DistributeCandies.java) (Easy)
 3. [Island Perimeter](src/hashTable/IslandPerimeter.java) (Easy)
 4. [Single Number](src/hashTable/SingleNumber.java) (Easy)
-5. 
+5. [Employee Importance](src/hashTable/EmployeeImportance.java) (Easy)
 6. 
 7. 
 8. 
