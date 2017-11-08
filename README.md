@@ -34,7 +34,7 @@ Basic plan: 16 easy + 8 medium for each category
 3. [Island Perimeter](src/hashTable/IslandPerimeter.java) (Easy)
 4. [Single Number](src/hashTable/SingleNumber.java) (Easy)
 5. [Employee Importance](src/hashTable/EmployeeImportance.java) (Easy)
-6. 
+6. [Find the Difference](src/hashTable/FindDifference.java) (Easy)
 7. 
 8. 
 9. 
