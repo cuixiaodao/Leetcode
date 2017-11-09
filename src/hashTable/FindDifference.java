@@ -7,9 +7,9 @@ package hashTable;
  */
 
 public class FindDifference{
-public char findTheDifference(String s, String t) {
-    char xor = 0;
-    for(char c : (s+t).toCharArray()) xor ^= c;            
-    return xor;
-}
+    public char findTheDifference(String s, String t) {
+        char xor = 0;
+        for(char c : (s+t).toCharArray()) xor ^= c;            
+        return xor;
+    }
 }

@@ -35,7 +35,7 @@ Basic plan: 16 easy + 8 medium for each category
 4. [Single Number](src/hashTable/SingleNumber.java) (Easy)
 5. [Employee Importance](src/hashTable/EmployeeImportance.java) (Easy)
 6. [Find the Difference](src/hashTable/FindDifference.java) (Easy)
-7. 
+7. [Intersection of Two Arrays](src/hashTable/IntersectionOfArrays.java) (Easy)
 8. 
 9. 
 10. 
