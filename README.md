@@ -36,7 +36,7 @@ Basic plan: 16 easy + 8 medium for each category
 5. [Employee Importance](src/hashTable/EmployeeImportance.java) (Easy)
 6. [Find the Difference](src/hashTable/FindDifference.java) (Easy)
 7. [Intersection of Two Arrays](src/hashTable/IntersectionOfArrays.java) (Easy)
-8. 
+8. [Valid Anagram](src/hashTable/ValidAnagram.java) (Easy)
 9. 
 10. 
 11. 
