@@ -39,7 +39,7 @@ Basic plan: 16 easy + 8 medium for each category
 8. [Valid Anagram](src/hashTable/ValidAnagram.java) (Easy)
 9. [Number of Boomerangs](src/hashTable/NumberOfBoomerangs.java) (Easy)
 10. [Minimum Index Sum of Two Lists](src/hashTable/MinimumIndexSum.java) (Easy)
-11. 
+11. [Longest Palindrome](src/hashTable/LongestPalindrome.java) (Easy)
 12. 
 13. 
 14. 
