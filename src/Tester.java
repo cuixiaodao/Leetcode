@@ -7,18 +7,19 @@ import java.util.List;
 
 class Tester{
     public static void main(String[] args){
-      int[] s = {1,3,5,8,2,1,3,5,8};
-      int[] t = {};
+      String[] s = {"Shogun","Tapioca Express","Burger King","Piatti","KFC"};
+      String[] t = {"Piatti","The Grill at Torrey Pines","Hungry Hunter Steakhouse","Shogun"};
 
-      ValidAnagram testInstance = new ValidAnagram();
-        Object ans = testInstance.isAnagram("rat",  "car");
+      MinimumIndexSum testInstance = new MinimumIndexSum();
+      Object ans = testInstance.findRestaurant(s, t);
 
-        if(ans instanceof int[][])
-          System.out.println(Arrays.deepToString((int[][])ans));
-        else if(ans instanceof int[])
-          System.out.println(Arrays.toString((int[])ans));
-        else if(ans instanceof Integer)
-          System.out.println(ans);
-        else System.out.println(ans);
+      System.out.println(Arrays.toString((String [])ans));
+      if(ans instanceof int[][])
+        System.out.println(Arrays.deepToString((int[][])ans));
+      else if(ans instanceof int[])
+        System.out.println(Arrays.toString((int[])ans));
+      else if(ans instanceof Integer)
+        System.out.println(ans);
+      else System.out.println(ans);
     }
 }

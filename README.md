@@ -37,8 +37,8 @@ Basic plan: 16 easy + 8 medium for each category
 6. [Find the Difference](src/hashTable/FindDifference.java) (Easy)
 7. [Intersection of Two Arrays](src/hashTable/IntersectionOfArrays.java) (Easy)
 8. [Valid Anagram](src/hashTable/ValidAnagram.java) (Easy)
-9. 
-10. 
+9. [Number of Boomerangs](src/hashTable/NumberOfBoomerangs.java) (Easy)
+10. [Minimum Index Sum of Two Lists](src/hashTable/MinimumIndexSum.java) (Easy)
 11. 
 12. 
 13. 
