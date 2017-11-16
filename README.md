@@ -2,7 +2,7 @@
 Java implemented Leetcode solutions https://leetcode.com/problemset/algorithms/
 
 Basic plan: 16 easy + 8 medium for each category
-## Array
+## Array(Oct 15, 2017)
 1. [Array Partition I](src/array/ArrayPartitionI.java) (Easy)
 2. [Reshape the Matrix](src/array/ReshapetheMatrix.java) (Easy)
 3. [Max Consecutive Ones](src/array/MaxConsecutiveOnes.java) (Easy)
@@ -28,7 +28,7 @@ Basic plan: 16 easy + 8 medium for each category
 23. [Combination Sum III](src/array/CombinationSumIII.java) (Medium)
 24. [Find the Duplicate Number](src/array/FindDuplicate.java) (Medium)
 
-## HashTable
+## HashTable(Nov 3, 2017)
 1. [Keyboard Row](src/hashTable/KeyboardRow.java) (Easy)
 2. [Distribute Candies](src/hashTable/DistributeCandies.java) (Easy)
 3. [Island Perimeter](src/hashTable/IslandPerimeter.java) (Easy)
@@ -40,16 +40,16 @@ Basic plan: 16 easy + 8 medium for each category
 9. [Number of Boomerangs](src/hashTable/NumberOfBoomerangs.java) (Easy)
 10. [Minimum Index Sum of Two Lists](src/hashTable/MinimumIndexSum.java) (Easy)
 11. [Longest Palindrome](src/hashTable/LongestPalindrome.java) (Easy)
-12. 
-13. 
-14. 
-15. 
-16. 
-17. 
-18. 
-19. 
-20. 
-21. 
-22. 
-23. 
-24. 
+12. [Intersection of Two Arrays II](src/hashTable/IntersectionOfArraysII.java) (Easy)
+13. [Happy Number](src/hashTable/HappyNumber.java) (Easy)
+14. [](src/hashTable/.java) (Easy)
+15. [](src/hashTable/.java) (Easy)
+16. [](src/hashTable/.java) (Easy)
+17. [](src/hashTable/.java) (Easy)
+18. [](src/hashTable/.java) (Easy)
+19. [](src/hashTable/.java) (Easy)
+20. [](src/hashTable/.java) (Easy)
+21. [](src/hashTable/.java) (Easy)
+22. [](src/hashTable/.java) (Easy)
+23. [](src/hashTable/.java) (Easy)
+24. [](src/hashTable/.java) (Easy)
