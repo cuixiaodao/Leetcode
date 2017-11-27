@@ -45,7 +45,7 @@ Basic plan: 16 easy + 8 medium for each category
 14. [Longest Harmonious Subsequence](src/hashTable/LongestHSubseq.java) (Easy)
 15. [Set Mismatch](src/hashTable/SetMismatch.java) (Easy)
 16. [Longest Word in Dictionary](src/hashTable/LongestWord.java) (Easy)
-17. [](src/hashTable/.java) (Easy)
+17. [Encode and Decode TinyURL](src/hashTable/TinyURL.java) (Easy)
 18. [](src/hashTable/.java) (Easy)
 19. [](src/hashTable/.java) (Easy)
 20. [](src/hashTable/.java) (Easy)
