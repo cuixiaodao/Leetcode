@@ -7,11 +7,11 @@ import java.util.List;
 
 class Tester{
     public static void main(String[] args){
-      String[] s = {"a", "banana", "app", "appl", "ap", "apply", "apple"};
+      String[] s = {"root/a 1.txt(abcd) 2.txt(efsfgh)","root/c 3.txt(abdfcd)","root/c/d 4.txt(efggdfh)"};
       String[] t = {"Piatti","The Grill at Torrey Pines","Hungry Hunter Steakhouse","Shogun"};
 
-      LongestWord testInstance = new LongestWord();
-      Object ans = testInstance.longestWord(s);
+      FindDuplicateFile testInstance = new FindDuplicateFile();
+      Object ans = testInstance.findDuplicate(s);
 
 //      System.out.println(Arrays.toString((String [])ans));
       if(ans instanceof int[][])
