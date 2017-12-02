@@ -47,7 +47,7 @@ Basic plan: 16 easy + 8 medium for each category
 16. [Longest Word in Dictionary](src/hashTable/LongestWord.java) (Easy)
 17. [Encode and Decode TinyURL](src/hashTable/TinyURL.java) (Medium)
 18. [Find Duplicate File in System](src/hashTable/FindDuplicateFile.java) (Medium)
-19. [](src/hashTable/.java) (Medium)
+19. [Most Frequent Subtree Sum](src/hashTable/MostFrequentSubtreeSum.java) (Medium)
 20. [](src/hashTable/.java) (Medium)
 21. [](src/hashTable/.java) (Medium)
 22. [](src/hashTable/.java) (Medium)
