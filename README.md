@@ -48,7 +48,7 @@ Basic plan: 16 easy + 8 medium for each category
 17. [Encode and Decode TinyURL](src/hashTable/TinyURL.java) (Medium)
 18. [Find Duplicate File in System](src/hashTable/FindDuplicateFile.java) (Medium)
 19. [Most Frequent Subtree Sum](src/hashTable/MostFrequentSubtreeSum.java) (Medium)
-20. [](src/hashTable/.java) (Medium)
+20. [Sort Characters By Frequency](src/hashTable/SortCharactersByFreq.java) (Medium)
 21. [](src/hashTable/.java) (Medium)
 22. [](src/hashTable/.java) (Medium)
 23. [](src/hashTable/.java) (Medium)
