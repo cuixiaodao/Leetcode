@@ -51,5 +51,5 @@ Basic plan: 16 easy + 8 medium for each category
 20. [Sort Characters By Frequency](src/hashTable/SortCharactersByFreq.java) (Medium)
 21. [Implement Magic Dictionary](src/hashTable/ImpMagicDict.java) (Medium)
 22. [Top K Frequent Elements](src/hashTable/TopKFreq.java) (Medium)
-23. [](src/hashTable/.java) (Medium)
+23. [Binary Tree Inorder Traversal](src/hashTable/BTreeInorderTraversal.java) (Medium)
 24. [](src/hashTable/.java) (Medium)
