@@ -6,10 +6,10 @@ package hashTable;
  * https://leetcode.com/problems/island-perimeter/description/
  */
 
-public class FindDifference{
+public class FindDifference {
     public char findTheDifference(String s, String t) {
         char xor = 0;
-        for(char c : (s+t).toCharArray()) xor ^= c;            
+        for (char c : (s + t).toCharArray()) xor ^= c;
         return xor;
     }
 }

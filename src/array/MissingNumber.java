@@ -6,14 +6,14 @@ package array;
  * https://leetcode.com/problems/missing-number/description/
  */
 
- public class MissingNumber{
+public class MissingNumber {
     public int missingNumber(int[] nums) {
         int missing = 0;
 
-        for(int i=0; i<nums.length; i++){
+        for (int i = 0; i < nums.length; i++) {
             missing += i - nums[i];
         }
 
-        return missing+nums.length;
+        return missing + nums.length;
     }
- }
+}

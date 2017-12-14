@@ -9,16 +9,16 @@ import java.util.List;
  * https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
  */
 
-public class FindDuplicates{
+public class FindDuplicates {
     public List<Integer> findDuplicates(int[] nums) {
         int len = nums.length;
         ArrayList<Integer> ans = new ArrayList<Integer>();
-        for(int n : nums)
-            nums[(n-1)%len] += len;
-        
-        for(int i=0; i<nums.length; i++)
-            if((nums[i]-1)/len == 2) ans.add(i+1);
-        
+        for (int n : nums)
+            nums[(n - 1) % len] += len;
+
+        for (int i = 0; i < nums.length; i++)
+            if ((nums[i] - 1) / len == 2) ans.add(i + 1);
+
         return ans;
-    }    
+    }
 }

@@ -18,10 +18,10 @@ class Employee {
     public List<Integer> subordinates;
 };
 
-public class EmployeeImportance{
+public class EmployeeImportance {
     public int getImportance(List<Employee> employees, int id) {
-        HashMap<Integer, Employee> empMap = new HashMap<>(employees.size()/2*3);
-        for(Employee emp : employees)
+        HashMap<Integer, Employee> empMap = new HashMap<>(employees.size() / 2 * 3);
+        for (Employee emp : employees)
             empMap.put(emp.id, emp);
 
         return getImportance(empMap, id);
@@ -31,7 +31,7 @@ public class EmployeeImportance{
         Employee cur = empMap.get(id);
         int importance = cur.importance;
 
-        for(int subId : cur.subordinates)
+        for (int subId : cur.subordinates)
             importance += getImportance(empMap, subId);
 
         return importance;

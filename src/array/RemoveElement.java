@@ -6,12 +6,12 @@ package array;
  * https://leetcode.com/problems/remove-element/description/
  */
 
-public class RemoveElement{
+public class RemoveElement {
     public int removeElement(int[] nums, int val) {
-        int i = 0;        
-        for(int n : nums)
-            if(n != val) nums[i++] = n;
+        int i = 0;
+        for (int n : nums)
+            if (n != val) nums[i++] = n;
 
         return i;
-    }    
+    }
 }

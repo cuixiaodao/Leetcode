@@ -13,36 +13,40 @@ import java.util.Map.Entry;
  */
 
 // Definition for a binary tree node.
- class TreeNode {
-     int val;
-     TreeNode left;
-     TreeNode right;
-     TreeNode(int x) { val = x; }
- }
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
 
- public class MostFrequentSubtreeSum {
-    Map<Integer,Integer> sumCntMap = new HashMap<>();
+    TreeNode(int x) {
+        val = x;
+    }
+}
+
+public class MostFrequentSubtreeSum {
+    Map<Integer, Integer> sumCntMap = new HashMap<>();
     int maxSumCnt = -1;
+
     public int[] findFrequentTreeSum(TreeNode root) {
-        if(root == null) return new int[0];
+        if (root == null) return new int[0];
         sumTree(root);
         List<Integer> ansList = new ArrayList<>();
-        for(Entry<Integer,Integer> en : sumCntMap.entrySet())
-            if(en.getValue()==maxSumCnt) ansList.add(en.getKey());
+        for (Entry<Integer, Integer> en : sumCntMap.entrySet())
+            if (en.getValue() == maxSumCnt) ansList.add(en.getKey());
 
-        int[] ans =new int[ansList.size()];
-        int i=0;
-        for(int v : ansList) ans[i++] = v;
+        int[] ans = new int[ansList.size()];
+        int i = 0;
+        for (int v : ansList) ans[i++] = v;
 
         return ans;
     }
 
-    private int sumTree(TreeNode node){
+    private int sumTree(TreeNode node) {
         int sum, leftSum, rightSum, sumCnt;
-        leftSum =  node.left != null ? sumTree(node.left) : 0;
-        rightSum =  node.right != null ? sumTree(node.right) : 0;
-        sum = node.val+leftSum+rightSum;
-        sumCnt = 1+sumCntMap.getOrDefault(sum, 0);
+        leftSum = node.left != null ? sumTree(node.left) : 0;
+        rightSum = node.right != null ? sumTree(node.right) : 0;
+        sum = node.val + leftSum + rightSum;
+        sumCnt = 1 + sumCntMap.getOrDefault(sum, 0);
         sumCntMap.put(sum, sumCnt);
         maxSumCnt = Math.max(maxSumCnt, sumCnt);
 

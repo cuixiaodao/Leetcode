@@ -6,9 +6,9 @@ package array;
  * https://leetcode.com/problems/search-insert-position/description/
  */
 
-public class SearchInsertPosition{
+public class SearchInsertPosition {
     public int searchInsert(int[] nums, int target) {
-        return binarySearch(nums, target, 0, nums.length-1);
+        return binarySearch(nums, target, 0, nums.length - 1);
     }
 
     private int binarySearch(int[] numbers, int x, int start, int end) {

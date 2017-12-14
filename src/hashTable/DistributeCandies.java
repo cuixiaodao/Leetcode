@@ -8,13 +8,13 @@ import java.util.HashSet;
  * https://leetcode.com/problems/distribute-candies/description/
  */
 
-public class DistributeCandies{
+public class DistributeCandies {
     public int distributeCandies(int[] candies) {
         int totalNum = candies.length;
         HashSet<Integer> hashSet = new HashSet<Integer>();
-        for(int i : candies) hashSet.add(i);
+        for (int i : candies) hashSet.add(i);
         int totalKind = hashSet.size();
 
-        return Math.min(totalNum/2, totalKind);
-    }  
+        return Math.min(totalNum / 2, totalKind);
+    }
 }

@@ -6,10 +6,10 @@ package hashTable;
  * https://leetcode.com/problems/keyboard-row/description/
  */
 
-public class SingleNumber{
+public class SingleNumber {
     public int singleNumber(int[] nums) {
         int single = 0;
-        for(int n : nums)
+        for (int n : nums)
             single ^= n;
         return single;
     }

@@ -1,7 +1,5 @@
 package array;
 
-import java.util.ArrayList;
-
 /**
  * Created by cuixiaodao on 10/15/017
  * for leetCode problem:

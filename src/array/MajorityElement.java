@@ -8,7 +8,7 @@ import java.util.HashMap;
  * https://leetcode.com/problems/degree-of-an-array/description/
  */
 
-public class MajorityElement{
+public class MajorityElement {
     public int majorityElement(int[] nums) {
         HashMap<Integer, Integer> cntMap = new HashMap<Integer, Integer>();
         for (int i : nums) {
