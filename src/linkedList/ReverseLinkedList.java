@@ -6,10 +6,10 @@ package linkedList;
  * https://leetcode.com/problems/reverse-linked-list/description/
  */
 
-public class ReverseLinkedList{
+public class ReverseLinkedList {
     public ListNode reverseList(ListNode head) {
         ListNode reverseHead = null;
-        while(head != null){
+        while (head != null) {
             ListNode curNode = head;
             head = head.next;
 
