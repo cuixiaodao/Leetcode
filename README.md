@@ -63,7 +63,7 @@ Basic plan: 16 easy + 8 medium for each category
 6.  [Palindrome Linked List](src/linkedList/PalindromeLinkedList.java) (Easy)
 7.  [Remove Linked List Elements](src/linkedList/RemoveLinkedListElements.java) (Easy)
 8.  [Intersection of Two Linked Lists](src/linkedList/IntersecOfTwoLinkedLists.java) (Easy)
-9.  [](src/linkedList/.java) (Medium)
+9.  [Split Linked List in Parts](src/linkedList/SplitLinkedList.java) (Medium)
 10. [](src/linkedList/.java) (Medium)
 11. [](src/linkedList/.java) (Medium)
 12. [](src/linkedList/.java) (Medium)

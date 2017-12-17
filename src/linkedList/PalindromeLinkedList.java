@@ -43,13 +43,4 @@ public class PalindromeLinkedList {
 
         return reverseHead;
     }
-
-//    public static void main(String[] args){
-//        PalindromeLinkedList t = new PalindromeLinkedList()       ;
-//        ListNode root = new ListNode(1);
-//        root.next = new ListNode(2);
-//        root.next.next = new ListNode(1);
-////        root.next.next.next = new ListNode(1);
-//        System.out.print(t.isPalindrome(root));
-//    }
 }
