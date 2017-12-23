@@ -67,8 +67,8 @@ Basic plan: 16 easy + 8 medium for each category
 10. [Add Two Numbers II](src/linkedList/AddTwoNumbersII.java) (Medium)
 11. [Odd Even Linked List](src/linkedList/OddEvenLinkedList.java) (Medium)
 12. [Swap Nodes in Pairs](src/linkedList/SwapNodesPairs.java) (Medium)
-13. [](src/linkedList/.java) (Medium)
-14. [](src/linkedList/.java) (Medium)
+13. [Convert Sorted List to Binary Search Tree](src/linkedList/SortedList2BST.java) (Medium)
+14. [Remove Nth Node From End of List](src/linkedList/RemoveNthNode.java) (Medium)
 
 `\[[0-9a-zA-Z].*[a-zA-Z]\]` remove words in []
 `[A-Z]+\.java` remove file name
