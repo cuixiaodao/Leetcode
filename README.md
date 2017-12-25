@@ -70,6 +70,29 @@ Basic plan: 16 easy + 8 medium for each category
 13. [Convert Sorted List to Binary Search Tree](src/linkedList/SortedList2BST.java) (Medium)
 14. [Remove Nth Node From End of List](src/linkedList/RemoveNthNode.java) (Medium)
 
-`\[[0-9a-zA-Z].*[a-zA-Z]\]` remove words in []
-`[A-Z]+\.java` remove file name
-`hashTable` `linkedList` remove dir name
+## Math(DEC 23, 2017)
+1.  [Self Dividing Numbers](src/Math/SelfDividingNumbers.java) (easy)
+2.  [Add Digits](src/Math/AddDigits.java) (easy)
+3.  [](src/Math/.java) (easy)
+4.  [](src/Math/.java) (easy)
+5.  [](src/Math/.java) (easy)
+6.  [](src/Math/.java) (easy)
+7.  [](src/Math/.java) (easy)
+8.  [](src/Math/.java) (easy)
+
+
+Sub `\[[0-9a-zA-Z].*[a-zA-Z]\]` with `[]` to remove words in []
+
+Sub `[A-Z]+\.java` with `.java` to remove file name
+
+Sub `linkedList` with `dirName` remove dir name
+
+## Math(DEC 23, 2017)
+1.  [](src/Math/.java) (Medium)
+2.  [](src/Math/.java) (Medium)
+3.  [](src/Math/.java) (Medium)
+4.  [](src/Math/.java) (Medium)
+5.  [](src/Math/.java) (Medium)
+6.  [](src/Math/.java) (Medium)
+7.  [](src/Math/.java) (Medium)
+8.  [](src/Math/.java) (Medium)
