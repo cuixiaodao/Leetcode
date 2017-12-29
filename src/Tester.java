@@ -1,10 +1,10 @@
 import java.util.Arrays;
-import Math.SelfDividingNumbers;
+import Math.*;
 
 class Tester {
     public static void main(String[] args) {
-        SelfDividingNumbers testInstance = new SelfDividingNumbers();
-        Object ans = testInstance.selfDividingNumbers(9,22);
+        ReverseInteger testInstance = new ReverseInteger();
+        Object ans = testInstance.reverse(-1534236469);
 
 //     System.out.println(Arrays.toString((String [])ans));
         if (ans instanceof int[][])
