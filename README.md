@@ -77,8 +77,8 @@ Basic plan: 16 easy + 8 medium for each category
 4.  [Sqrt(x)](src/Math/Sqrt.java) (easy)
 5.  [Count Primes](src/Math/CountPrimes.java) (easy)
 6.  [Reverse Integer](src/Math/ReverseInteger.java) (easy)
-7.  [](src/Math/.java) (easy)
-8.  [](src/Math/.java) (easy)
+7.  [Optimal Division](src/Math/OptimalDivision.java) (Medium)
+8.  [Arithmetic Slices](src/Math/ArithmeticSlices.java) (Medium)
 
 
 Sub `\[[0-9a-zA-Z].*[a-zA-Z]\]` with `[]` to remove words in []

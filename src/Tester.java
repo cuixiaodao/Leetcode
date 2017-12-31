@@ -3,8 +3,8 @@ import Math.*;
 
 class Tester {
     public static void main(String[] args) {
-        ReverseInteger testInstance = new ReverseInteger();
-        Object ans = testInstance.reverse(-1534236469);
+        ArithmeticSlices testInstance = new ArithmeticSlices();
+        Object ans = testInstance.numberOfArithmeticSlices(new int[]{7, 7, 7, 7, 1, 2, 5, 8});
 
 //     System.out.println(Arrays.toString((String [])ans));
         if (ans instanceof int[][])
