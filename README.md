@@ -80,7 +80,19 @@ Basic plan: 16 easy + 8 medium for each category
 7.  [Optimal Division](src/Math/OptimalDivision.java) (Medium)
 8.  [Arithmetic Slices](src/Math/ArithmeticSlices.java) (Medium)
 9.  [Minimum Moves to Equal Array Elements II](src/Math/MinimumMoves2EqualII.java) (Medium)
-10. [](src/Math/.java) (Medium)
+
+## Backtracking(Jan 16, 2018)
+1.  [Beautiful Arrangement](src/Backtracking/BeautifulArrangement.java) (Medium)
+2.  [Generate Parentheses](src/Backtracking/GenerateParentheses.java) (Medium)
+3.  [](src/Backtracking/.java) (Medium)
+4.  [](src/Backtracking/.java) (Medium)
+5.  [](src/Backtracking/.java) (Medium)
+6.  [](src/Backtracking/.java) (Medium)
+7.  [](src/Backtracking/.java) (Medium)
+8.  [](src/Backtracking/.java) (Medium)
+9.  [](src/Backtracking/.java) (Medium)
+10. [](src/Backtracking/.java) (Medium)
+
 
 Sub `\[[0-9a-zA-Z].*[a-zA-Z]\]` with `[]` to remove words in []
 
@@ -97,3 +109,11 @@ Sub `linkedList` with `dirName` remove dir name
 6.  [](src/Math/.java) (Medium)
 7.  [](src/Math/.java) (Medium)
 8.  [](src/Math/.java) (Medium)
+9.  [](src/Math/.java) (Medium)
+10. [](src/Math/.java) (Medium)
+11. [](src/Math/.java) (Medium)
+12. [](src/Math/.java) (Medium)
+13. [](src/Math/.java) (Medium)
+14. [](src/Math/.java) (Medium)
+15. [](src/Math/.java) (Medium)
+16. [](src/Math/.java) (Medium)

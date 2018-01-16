@@ -1,10 +1,11 @@
 import java.util.Arrays;
-import Math.*;
+import Backtracking.*;
 
 class Tester {
     public static void main(String[] args) {
-        MinMoves2 testInstance = new MinMoves2();
-        Object ans = testInstance.minMoves2(new int[]{1,2,3});
+        GenerateParentheses testInstance = new GenerateParentheses();
+        Object ans = testInstance.generateParenthesis(3);
+        // System.out.print(ans.toString());
 //     System.out.println(Arrays.toString((String [])ans));
         if (ans instanceof int[][])
             System.out.println(Arrays.deepToString((int[][]) ans));
