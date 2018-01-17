@@ -3,8 +3,8 @@ import Backtracking.*;
 
 class Tester {
     public static void main(String[] args) {
-        GenerateParentheses testInstance = new GenerateParentheses();
-        Object ans = testInstance.generateParenthesis(3);
+        Permutations testInstance = new Permutations();
+        Object ans = testInstance.permute(new int[]{1, 2, 3});
         // System.out.print(ans.toString());
 //     System.out.println(Arrays.toString((String [])ans));
         if (ans instanceof int[][])
