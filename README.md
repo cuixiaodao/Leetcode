@@ -86,7 +86,7 @@ Basic plan: 16 easy + 8 medium for each category
 2.  [Generate Parentheses](src/Backtracking/GenerateParentheses.java) (Medium)
 3.  [Count Numbers with Unique Digits](src/Backtracking/CNUniqueDigits.java) (Medium)
 4.  [Permutations](src/Backtracking/Permutations.java) (Medium)
-5.  [](src/Backtracking/.java) (Medium)
+5.  [Gray Code](src/Backtracking/GrayCode.java) (Medium)
 6.  [](src/Backtracking/.java) (Medium)
 7.  [](src/Backtracking/.java) (Medium)
 8.  [](src/Backtracking/.java) (Medium)

@@ -3,8 +3,8 @@ import Backtracking.*;
 
 class Tester {
     public static void main(String[] args) {
-        Permutations testInstance = new Permutations();
-        Object ans = testInstance.permute(new int[]{1, 2, 3});
+        GrayCode testInstance = new GrayCode();
+        Object ans = testInstance.grayCode(1);
         // System.out.print(ans.toString());
 //     System.out.println(Arrays.toString((String [])ans));
         if (ans instanceof int[][])
