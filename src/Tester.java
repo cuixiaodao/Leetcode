@@ -3,8 +3,8 @@ import Backtracking.*;
 
 class Tester {
     public static void main(String[] args) {
-        GrayCode testInstance = new GrayCode();
-        Object ans = testInstance.grayCode(1);
+        Combinations testInstance = new Combinations();
+        Object ans = testInstance.combine(3,4);
         // System.out.print(ans.toString());
 //     System.out.println(Arrays.toString((String [])ans));
         if (ans instanceof int[][])
