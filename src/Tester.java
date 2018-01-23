@@ -3,8 +3,8 @@ import Backtracking.*;
 
 class Tester {
     public static void main(String[] args) {
-        Combinations testInstance = new Combinations();
-        Object ans = testInstance.combine(3,4);
+        CombinationSum testInstance = new CombinationSum();
+        Object ans = testInstance.combinationSum(new int[]{2,3,6,7}, 7);
         // System.out.print(ans.toString());
 //     System.out.println(Arrays.toString((String [])ans));
         if (ans instanceof int[][])

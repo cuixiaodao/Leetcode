@@ -16,7 +16,7 @@ public class Combinations{
         return ans;
     }
 
-    /** from @b‚ to @n, 
+    /** from @b to @n, 
      * chooose k number, get total combinations
      */
     private void combine(int k, int b, ArrayList<Integer> ret){

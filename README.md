@@ -88,7 +88,7 @@ Basic plan: 16 easy + 8 medium for each category
 4.  [Permutations](src/Backtracking/Permutations.java) (Medium)
 5.  [Gray Code](src/Backtracking/GrayCode.java) (Medium)
 6.  [Combinations](src/Backtracking/Combinations.java) (Medium)
-7.  [](src/Backtracking/.java) (Medium)
+7.  [Combination Sum](src/Backtracking/CombinationSum.java) (Medium)
 8.  [](src/Backtracking/.java) (Medium)
 9.  [](src/Backtracking/.java) (Medium)
 10. [](src/Backtracking/.java) (Medium)
