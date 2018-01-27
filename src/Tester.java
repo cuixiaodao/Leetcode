@@ -3,8 +3,10 @@ import Backtracking.*;
 
 class Tester {
     public static void main(String[] args) {
-        SubsetsII testInstance = new SubsetsII();
-        Object ans = testInstance.subsetsWithDup(new int[]{});
+        CombinationSumII testInstance = new CombinationSumII();
+        Object ans = testInstance.combinationSum2(
+            new int[]{10, 1, 2, 7, 6, 1, 5}, 8
+        );
         // System.out.print(ans.toString());
 //     System.out.println(Arrays.toString((String [])ans));
         if (ans instanceof int[][])
