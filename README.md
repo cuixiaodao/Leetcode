@@ -93,6 +93,16 @@ Basic plan: 16 easy + 8 medium for each category
 9.  [Letter Combinations of a Phone Number](src/Backtracking/LetterCombinations.java) (Medium)
 10. [CombinationSumII](src/Backtracking/CombinationSumII.java) (Medium)
 
+## BinarySearch(Jan 27, 2018)
+1.  [Valid Perfect Square](src/BinarySearch/ValidPerfectSquare.java) (Medium)
+2.  [](src/BinarySearch/.java) (Medium)
+3.  [](src/BinarySearch/.java) (Medium)
+4.  [](src/BinarySearch/.java) (Medium)
+5.  [](src/BinarySearch/.java) (Medium)
+6.  [](src/BinarySearch/.java) (Medium)
+7.  [](src/BinarySearch/.java) (Medium)
+8.  [](src/BinarySearch/.java) (Medium)
+
 
 Sub `\[[0-9a-zA-Z].*[a-zA-Z]\]` with `[]` to remove words in []
 

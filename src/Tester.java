@@ -1,12 +1,11 @@
 import java.util.Arrays;
 import Backtracking.*;
+import BinarySearch.ValidPerfectSquare;
 
 class Tester {
     public static void main(String[] args) {
-        CombinationSumII testInstance = new CombinationSumII();
-        Object ans = testInstance.combinationSum2(
-            new int[]{10, 1, 2, 7, 6, 1, 5}, 8
-        );
+        ValidPerfectSquare testInstance = new ValidPerfectSquare();
+        Object ans = testInstance.isPerfectSquare(10001*10001);
         // System.out.print(ans.toString());
 //     System.out.println(Arrays.toString((String [])ans));
         if (ans instanceof int[][])
