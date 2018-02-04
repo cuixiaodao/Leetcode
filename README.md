@@ -94,9 +94,9 @@ Basic plan: 16 easy + 8 medium for each category
 10. [CombinationSumII](src/Backtracking/CombinationSumII.java) (Medium)
 
 ## BinarySearch(Jan 27, 2018)
-1.  [Valid Perfect Square](src/BinarySearch/ValidPerfectSquare.java) (Medium)
-2.  [](src/BinarySearch/.java) (Medium)
-3.  [](src/BinarySearch/.java) (Medium)
+1.  [Valid Perfect Square](src/BinarySearch/ValidPerfectSquare.java) (easy)
+2.  [Kth Smallest Element in a BST](src/BinarySearch/KthEleBST.java) (Medium)
+3.  [IsSubsequence](src/BinarySearch/IsSubsequence.java) (Medium)
 4.  [](src/BinarySearch/.java) (Medium)
 5.  [](src/BinarySearch/.java) (Medium)
 6.  [](src/BinarySearch/.java) (Medium)
