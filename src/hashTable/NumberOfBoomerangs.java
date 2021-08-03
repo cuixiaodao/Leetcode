@@ -10,6 +10,7 @@ import java.util.Map;
  */
 
 public class NumberOfBoomerangs {
+    // 相同距离 -> 距离为key,构造map
     public int numberOfBoomerangs(int[][] points) {
         int res = 0;
 
