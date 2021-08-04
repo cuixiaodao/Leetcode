@@ -8,6 +8,7 @@ package linkedList;
 
 public class RemoveNthNode{
     public ListNode removeNthFromEnd(ListNode head, int n) {
+        // 令first, second距离为n,first到达链表末尾时，second导到倒数第n个节点
         ListNode first = head, second = head;        
                 
         while(n-- > 0) first = first.next;
