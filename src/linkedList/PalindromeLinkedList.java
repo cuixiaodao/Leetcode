@@ -8,6 +8,7 @@ package linkedList;
 
 public class PalindromeLinkedList {
     public boolean isPalindrome(ListNode head) {
+        // 推导，细化明确问题 -> 翻转后半段链表
         int len = 0;
         ListNode walk = head;
         while (walk != null) {

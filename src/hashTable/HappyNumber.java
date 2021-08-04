@@ -8,12 +8,14 @@ package hashTable;
 
 public class HappyNumber {
     public boolean isHappy(int n) {
-        int slow = getDigitSum(n), fast = getDigitSum(getDigitSum(n));
-        while (slow != fast) {
-            slow = getDigitSum(n);
-            fast = getDigitSum(getDigitSum(n));
-        }
-        return slow == 1;
+        // 通过slow, fast来判断是否成环
+        int slow = n, fast = n;
+        do {
+            slow = getDigitSum(slow);
+            fast = getDigitSum(getDigitSum(fast));
+        } while (slow != fast && fast != 1);
+
+        return fast == 1;
     }
 
     private int getDigitSum(int n) {
@@ -24,5 +26,10 @@ public class HappyNumber {
             s += r * r;
         }
         return s;
+    }
+
+    public static void main(String[] args) {
+        HappyNumber hn = new HappyNumber();
+        System.out.println(hn.isHappy(19));
     }
 }

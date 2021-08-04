@@ -16,6 +16,7 @@ public class MaximumProductThree {
      * @return the maximum product
      */
     public int maximumProduct(int[] nums) {
+        // 排序；分类讨论： all positive; all negative; have both
         Arrays.sort(nums);
         int last = nums.length - 1;
         return Math.max(nums[0] * nums[1] * nums[last],
