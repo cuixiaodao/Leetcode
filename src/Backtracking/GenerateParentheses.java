@@ -7,6 +7,7 @@ import java.util.List;
 public class GenerateParentheses{
     List<String> ret = new LinkedList<String>();
     public List<String> generateParenthesis(int n) {
+        // 使用char数组
         char[] parenArr = new char[2*n];
         genParen(parenArr, 0, 0, n);
         return ret;
