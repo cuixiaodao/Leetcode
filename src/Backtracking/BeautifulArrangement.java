@@ -5,29 +5,26 @@ import java.util.LinkedList;
 public class BeautifulArrangement {
     int arrCnt = 0;
     public int countArrangement(int N) {
-        LinkedList<Integer> nums = new LinkedList<>();
-        int i = 1;
-        while(i <= N)
-            nums.add(i++);
-        countArrangement(1, nums);
+        boolean[] visted = new boolean[N];
+        countArrangement(1, visted);
         return arrCnt;
     }
 
-    private void countArrangement(int idx, LinkedList<Integer> nums){
+    private void countArrangement(int idx, boolean[] visted){
         
-        if(nums.isEmpty()){
+        if(idx > visted.length){
             arrCnt++;
             return;
         }
 
-        int nextIdx = idx+1;
-        for(int n : nums)
-            if(n%idx == 0 || idx%n == 0){
-                LinkedList<Integer> remainNums = (LinkedList<Integer>)(nums.clone());
-                remainNums.remove((Object)n);
-                countArrangement(nextIdx, remainNums);
+        for(int i = 0; i < visted.length; i++) {
+            int n = i + 1;
+            if (!visted[i] && (n%idx == 0 || idx%n == 0)) {
+                visted[i] = true;
+                countArrangement(idx+1, visted);
+                visted[i] = false;
             }
-
+        }
         return;
     }
 }
