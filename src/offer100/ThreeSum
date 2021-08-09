@@ -1,0 +1,42 @@
+// https://leetcode-cn.com/problems/3sum/solution/
+class Solution {
+    public List<List<Integer>> threeSum(int[] nums) {
+        List<List<Integer>> ans = new LinkedList<>();
+        Arrays.sort(nums);
+        List<Integer> idxList;
+        Map<Integer, List<Integer>> valCntMap = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            idxList = valCntMap.get(nums[i]);
+            if (null == idxList) {
+                idxList = new LinkedList();
+                valCntMap.put(nums[i], idxList);
+            }
+            idxList.add(i);            
+        }
+
+        Integer idx;
+        Integer target;
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                target = 0 - nums[i] - nums[j];
+                idxList = valCntMap.get(target);
+                
+
+                if (null != idxList) {
+                    idx = idxList.get(idxList.size() - 1);
+                    if (idx > i && idx > j) {
+                        ans.add(Arrays.asList(nums[i], nums[j], target));
+                    }                    
+                }
+                while (j + 1 < nums.length && nums[j+1] == nums[j]) {
+                    j++;
+                }
+            }
+            while (i + 1 < nums.length && nums[i+1] == nums[i]) {
+                i++;
+            }
+        }
+
+        return ans;
+    }
+}
