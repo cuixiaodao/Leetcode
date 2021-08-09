@@ -6,6 +6,8 @@ import java.util.List;
 
 public class SubsetsII{
     public List<List<Integer>> subsetsWithDup(int[] nums) {
+        // 分析题目，抓住特性，子集产生子集
+        
         ArrayList<List<Integer>> ret = new ArrayList();
         ret.add(new ArrayList<>());
         Arrays.sort(nums);
