@@ -1,0 +1,39 @@
+class Solution {
+    int[] maxRange = null;
+    int maxLen = 0;
+
+    // 写出状态方程，递归关系
+    public String longestPalindrome(String s) {
+        char[] arr = s.toCharArray();
+        int[] range;
+        for (int i = 0; i < arr.length; i++) {
+            range = palindrome(arr, i, i);
+            updateMaxRange(range);
+
+            if (i + 1 < arr.length && arr[i] == arr[i+1]) {
+                range = palindrome(arr, i, i+1);
+                updateMaxRange(range);
+            }
+        }
+
+        return s.substring(maxRange[0], maxRange[1]);
+    }
+
+    private void updateMaxRange(int[] range) {
+        if (range[1] - range[0] > maxLen) {
+            maxRange = range;
+            maxLen = range[1] - range[0];
+        }
+    }
+
+    private int[] palindrome(char[] arr, int left, int right) {      
+        
+        System.out.printf("l: %d, r: %d", left, right);
+                 
+        while (left >= 0 && right < arr.length && arr[left] == arr[right]) {
+            left--;
+            right++;
+        };
+        return new int[]{left+1, right};
+    }
+}
