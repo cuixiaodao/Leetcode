@@ -26,5 +26,6 @@ public class Sol {
          String s2 = s;
          int lenS = s.length();
          int[][] rec = new int[lenS][lenS];
+         return 0;
     }
 }
