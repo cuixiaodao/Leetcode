@@ -15,6 +15,8 @@ public class Main {
         System.out.printf("c == d : %b, c == e : %b, d == e : %b", c == d, c == e, e == e);
         System.out.print(str+" ");
         // System.out.print(ch);
+        PriorityQueue<Integer[]> pq = new PriorityQueue<>(Comparator.comparing(x -> x[0]));
+
     }
 
         public static void change(String str,char[] ch){
